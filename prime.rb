@@ -4,7 +4,7 @@ def prime?(num = 7)
   end
   [2,3,4,5,6,7]
   (2..num).any? do | n |
-    num % 
+    num % n == 
     
   end
 end
