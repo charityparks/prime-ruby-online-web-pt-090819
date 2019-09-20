@@ -4,7 +4,7 @@ def prime?(num)
   end
   
   (2..num).
-  
+    num % n == 0
 end
 
 # 3 % 2 = 1
