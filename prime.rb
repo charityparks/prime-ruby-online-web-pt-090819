@@ -3,8 +3,9 @@ def prime?(num)
     false
   end
   
-  (2..num)
+  (2..num).
   
 end
 
+# 3 % 2 = 1
 # prime?(5)
