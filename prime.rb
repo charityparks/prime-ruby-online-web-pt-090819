@@ -1,4 +1,4 @@
-def prime?(num = 7)
+def prime?(num)
   if num < 2
     false
   end
