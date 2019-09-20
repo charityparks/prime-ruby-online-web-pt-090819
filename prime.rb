@@ -3,8 +3,8 @@ def prime?(num)
     return false
   end
 
-    (2..num - 1).none? do | n |
-      num % n == 0
+    (2..num - 1).all? do | n |
+      num % n != 0
     end
   
 end
