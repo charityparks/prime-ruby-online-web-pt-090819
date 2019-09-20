@@ -3,9 +3,10 @@ def prime?(num)
     false
   end
   
-  (2..num).
-    num % n == 0
+  (2..num).each
+    # num % n == 0
 end
 
 # 3 % 2 = 1
 # prime?(5)
+
