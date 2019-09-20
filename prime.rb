@@ -1,6 +1,6 @@
 def prime?(num)
   if num < 2
-    false
+    return false
   end
   # [2,3,4,5,6,7]
   (2..num - 1).any? do | n |
