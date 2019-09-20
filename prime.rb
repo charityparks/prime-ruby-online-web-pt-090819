@@ -3,8 +3,8 @@ def prime?(num = 7)
     false
   end
   [2,3,4,5,6,7]
-  (2..num).any? do | number |
-    
+  (2..num).any? do | n |
+    num % 
     
   end
 end
